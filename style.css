@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background: mediumspringgreen;
+    color: #000000;
+}
+header{
+    display: flex;
+    position: relative;
+}
+.side-nav{
+    width: 10%;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.side-nav ul li{
+    padding: 15px;
+}
+.side-nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li:first-child{
+    background-color: #04AA6D;
+}
+nav ul li:hover{
+    background-color: #555555;
+}
+nav ul li:first-child:hover{
+    background-color: #04AA6D;
+}
+
+
+
+
+
+.second-nav{
+    position: absolute;
+    top: 0;
+    left: 11%;
+    width: 90%;
+    background-color: #333333;
+}
+.second-nav ul li{
+    display: inline-block;
+    margin-left: -4px;
+    padding: 15px;
+}
+.second-nav ul li a{
+    padding: 14px;
+    text-decoration: none;
+    color: #ffff;
+}
+.second-nav ul li:first-child{
+    background-color: #04AA6D;
+}
+.second-nav ul li:first-child:hover{
+    background-color: #04aa6d;
+}
+.second-nav ul li:hover{
+    background-color: #000000;
+}
+
+.banner-area{
+    position: absolute;
+    top: 65px;
+    left: 350px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner-area h1{
+    font-size: 40px;
+}
+.banner-area h2{
+    text-shadow: 2px 2px #04aa6d;
+}
+
+.second-banner-area{
+    display: flex;
+    margin: 20px;
+    padding: 60px;
+}
+.second-banner img{
+    width: 500px;
+}
+.second-banner-text p{
+    margin-top: 50px;
+    padding: 60px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+.second-banner-text::first-letter{
+    font-size: 50px;
+    color: #04aa6d;
+}
+.second-banner-text::first-line{
+    color: #04aa6d;
+}
+h2::before{
+    content: "Hi! ";
+}
+h2::after{
+    content: " World";
+}
